@@ -147,7 +147,7 @@ html{
 section{
     padding: 100px 0;
 }
-.about, .services, .skills, .contact, footer{
+.about, .projects, .skills, .contact, footer{
     font-family: 'Poppins',sans-serif;
 }
 section .title{
@@ -183,7 +183,7 @@ section .title::after{
     content: "who I am";
 }
 .about .about-content,
-.services .serv-content,
+.projects .serv-content,
 .skills .skills-content,
 .contact .contact-content{
     display: flex;
@@ -230,47 +230,54 @@ section .title::after{
     background: none;
 }
 /*Service Section style*/
-.services{
+.projects{
     color: #fff;
     background: #111;
 }
-.services  .title::before{
+.projects  .title::before{
     background: #fff;
 }
-.services  .title::after{
+.projects  .title::after{
     background: #111;
-    content: "what I provide";
+    content: "what I created";
 }
-.services .serv-content .card{
+.projects .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
     text-align: center;
     border-radius: 9px;
     padding: 20px 25px;
+    margin-bottom: 25px;
     cursor:pointer;
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover{
+.projects .serv-content .card:hover{
     background: crimson;
 }
-.services .serv-content .card:hover i{
+.projects .serv-content .card:hover i{
     color: #fff;
     
 }
-.services .serv-content .card .box{
+.projects .serv-content .card .box{
     transition: all 0.3s ease;
 }
-.services .serv-content .card:hover .box{
+.projects .serv-content .card:hover .box{
     transform: scale(1.05);
 }
-.services .serv-content .card i{
+.projects .serv-content .card i{
     font-size: 50px;
     color: crimson;
 }
-.services .serv-content .card .text{
+.projects .serv-content .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;;
+}
+.projects .serv-content .codelink{
+    color: #fff;
+}
+.projects .serv-content .codelink:hover{
+    color: rgb(131, 131, 242)
 }
 
 /*Skills Section style*/
@@ -337,16 +344,16 @@ section .title::after{
 .skills .skills-content .right .css::before{
     width: 70%;
 }
-.skills .skills-content .right .javascript::before{
+.skills .skills-content .right .bootstrap::before{
     width: 70%;
 }
 .skills .skills-content .right .python::before{
     width: 70%;
 }
-.skills .skills-content .right .nodejs::before{
+.skills .skills-content .right .ps::before{
     width: 65%;
 }
-.skills .skills-content .right .react::before{
+.skills .skills-content .right .flask::before{
     width: 70%;
 }
 /*Contact Section Styling*/
@@ -442,7 +449,9 @@ section .title::after{
     color: crimson;
     background: none;
 }
-
+#linkedin{
+    color: black;
+}
 /*Footer Section Style*/
 
 footer{
@@ -534,7 +543,7 @@ footer span a:hover{
         flex: 100%;
 
     }
-    .services .serv-content .card{
+    .projects .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
     }
@@ -556,7 +565,7 @@ footer span a:hover{
         font-size: 20px;
         
     }
-    .services .serv-content .card{
+    .projects .serv-content .card{
         width:100%;
     }
     .skills .skills-content .column,
