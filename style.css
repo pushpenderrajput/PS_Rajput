@@ -252,6 +252,7 @@ section .title::after{
     margin-bottom: 25px;
     cursor:pointer;
     transition: all 0.3s ease;
+    box-shadow: 4px 4px 8px black;
 }
 .projects .serv-content .card:hover{
     background: crimson;
