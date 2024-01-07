@@ -118,6 +118,7 @@ html{
     font-size: 62px;
     font-weight: 600;
     margin-left: -3px;
+    text-shadow:text-shadow: 2px 2px 4px #b6b6b6;
 }
 .home .home-content .text-3{
     font-size: 40px;
@@ -198,7 +199,8 @@ section .title::after{
     height: 375px;
     width: 350px;
     object-fit: cover;
-    border-radius: 24px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 8px #414040;
 }
 .about .about-content .right{
     width: 55%;
