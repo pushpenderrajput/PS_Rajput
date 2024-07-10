@@ -313,10 +313,8 @@ section .title::after{
     color: crimson;
     background: none;
 }
-.skills .skills-content .right .bars{
-    margin-bottom: 15px;
-}
-.skills .skills-content .right .info{
+
+/* .skills .skills-content .right .info{
     display: flex;
     margin-bottom: 5px;
     justify-content: space-between;
@@ -358,7 +356,7 @@ section .title::after{
 }
 .skills .skills-content .right .flask::before{
     width: 70%;
-}
+} */
 /*Contact Section Styling*/
 
 .contact .title:after{
